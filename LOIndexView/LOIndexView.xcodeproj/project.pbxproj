@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B794B101D127E7A006DDDCC /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B794B031D127E7A006DDDCC /* ChineseToPinyinResource.m */; };
+		0B794B111D127E7A006DDDCC /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B794B051D127E7A006DDDCC /* HanyuPinyinOutputFormat.m */; };
+		0B794B121D127E7A006DDDCC /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B794B071D127E7A006DDDCC /* NSString+PinYin4Cocoa.m */; };
+		0B794B131D127E7A006DDDCC /* pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B794B091D127E7A006DDDCC /* pinyin.m */; };
+		0B794B141D127E7A006DDDCC /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B794B0C1D127E7A006DDDCC /* PinyinFormatter.m */; };
+		0B794B151D127E7A006DDDCC /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B794B0E1D127E7A006DDDCC /* PinyinHelper.m */; };
+		0B794B161D127E7A006DDDCC /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B794B0F1D127E7A006DDDCC /* unicode_to_hanyu_pinyin.txt */; };
+		0B794B191D127EDA006DDDCC /* UIViewController+LOIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B794B181D127EDA006DDDCC /* UIViewController+LOIndexView.m */; };
+		0BB9BF371D11239D00B208DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9BF361D11239D00B208DD /* main.m */; };
+		0BB9BF3A1D11239D00B208DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9BF391D11239D00B208DD /* AppDelegate.m */; };
+		0BB9BF3D1D11239D00B208DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9BF3C1D11239D00B208DD /* ViewController.m */; };
+		0BB9BF401D11239D00B208DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9BF3E1D11239D00B208DD /* Main.storyboard */; };
+		0BB9BF421D11239D00B208DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9BF411D11239D00B208DD /* Assets.xcassets */; };
+		0BB9BF451D11239D00B208DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9BF431D11239D00B208DD /* LaunchScreen.storyboard */; };
+		0BB9BF4E1D1125A600B208DD /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9BF4D1D1125A600B208DD /* TestModel.m */; };
+		0BB9BF521D112B9200B208DD /* MJNIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9BF511D112B9200B208DD /* MJNIndexView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B794B021D127E7A006DDDCC /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		0B794B031D127E7A006DDDCC /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		0B794B041D127E7A006DDDCC /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		0B794B051D127E7A006DDDCC /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		0B794B061D127E7A006DDDCC /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		0B794B071D127E7A006DDDCC /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		0B794B081D127E7A006DDDCC /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		0B794B091D127E7A006DDDCC /* pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinyin.m; sourceTree = "<group>"; };
+		0B794B0A1D127E7A006DDDCC /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
+		0B794B0B1D127E7A006DDDCC /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		0B794B0C1D127E7A006DDDCC /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		0B794B0D1D127E7A006DDDCC /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		0B794B0E1D127E7A006DDDCC /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		0B794B0F1D127E7A006DDDCC /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		0B794B171D127EDA006DDDCC /* UIViewController+LOIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LOIndexView.h"; sourceTree = "<group>"; };
+		0B794B181D127EDA006DDDCC /* UIViewController+LOIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LOIndexView.m"; sourceTree = "<group>"; };
+		0BB6F5D91D125540001493BE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0BB9BF321D11239D00B208DD /* LOIndexView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOIndexView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB9BF361D11239D00B208DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BB9BF381D11239D00B208DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BB9BF391D11239D00B208DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BB9BF3B1D11239D00B208DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BB9BF3C1D11239D00B208DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BB9BF3F1D11239D00B208DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BB9BF411D11239D00B208DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BB9BF441D11239D00B208DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BB9BF461D11239D00B208DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB9BF4C1D1125A600B208DD /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		0BB9BF4D1D1125A600B208DD /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		0BB9BF501D112B9200B208DD /* MJNIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNIndexView.h; sourceTree = "<group>"; };
+		0BB9BF511D112B9200B208DD /* MJNIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNIndexView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB9BF2F1D11239D00B208DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B794B011D127E7A006DDDCC /* PingYing */ = {
+			isa = PBXGroup;
+			children = (
+				0B794B021D127E7A006DDDCC /* ChineseToPinyinResource.h */,
+				0B794B031D127E7A006DDDCC /* ChineseToPinyinResource.m */,
+				0B794B041D127E7A006DDDCC /* HanyuPinyinOutputFormat.h */,
+				0B794B051D127E7A006DDDCC /* HanyuPinyinOutputFormat.m */,
+				0B794B061D127E7A006DDDCC /* NSString+PinYin4Cocoa.h */,
+				0B794B071D127E7A006DDDCC /* NSString+PinYin4Cocoa.m */,
+				0B794B081D127E7A006DDDCC /* pinyin.h */,
+				0B794B091D127E7A006DDDCC /* pinyin.m */,
+				0B794B0A1D127E7A006DDDCC /* PinYin4Objc.h */,
+				0B794B0B1D127E7A006DDDCC /* PinyinFormatter.h */,
+				0B794B0C1D127E7A006DDDCC /* PinyinFormatter.m */,
+				0B794B0D1D127E7A006DDDCC /* PinyinHelper.h */,
+				0B794B0E1D127E7A006DDDCC /* PinyinHelper.m */,
+				0B794B0F1D127E7A006DDDCC /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = PingYing;
+			sourceTree = "<group>";
+		};
+		0BB9BF291D11239D00B208DD = {
+			isa = PBXGroup;
+			children = (
+				0BB9BF341D11239D00B208DD /* LOIndexView */,
+				0BB9BF331D11239D00B208DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BB9BF331D11239D00B208DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB9BF321D11239D00B208DD /* LOIndexView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BB9BF341D11239D00B208DD /* LOIndexView */ = {
+			isa = PBXGroup;
+			children = (
+				0BB9BF381D11239D00B208DD /* AppDelegate.h */,
+				0BB9BF391D11239D00B208DD /* AppDelegate.m */,
+				0BB9BF3B1D11239D00B208DD /* ViewController.h */,
+				0BB9BF3C1D11239D00B208DD /* ViewController.m */,
+				0BB9BF3E1D11239D00B208DD /* Main.storyboard */,
+				0BB9BF4C1D1125A600B208DD /* TestModel.h */,
+				0BB9BF4D1D1125A600B208DD /* TestModel.m */,
+				0BB6F5D91D125540001493BE /* PrefixHeader.pch */,
+				0B794B171D127EDA006DDDCC /* UIViewController+LOIndexView.h */,
+				0B794B181D127EDA006DDDCC /* UIViewController+LOIndexView.m */,
+				0B794B011D127E7A006DDDCC /* PingYing */,
+				0BB9BF4F1D112B9200B208DD /* MJNIndexView */,
+				0BB9BF411D11239D00B208DD /* Assets.xcassets */,
+				0BB9BF431D11239D00B208DD /* LaunchScreen.storyboard */,
+				0BB9BF461D11239D00B208DD /* Info.plist */,
+				0BB9BF351D11239D00B208DD /* Supporting Files */,
+			);
+			path = LOIndexView;
+			sourceTree = "<group>";
+		};
+		0BB9BF351D11239D00B208DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BB9BF361D11239D00B208DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BB9BF4F1D112B9200B208DD /* MJNIndexView */ = {
+			isa = PBXGroup;
+			children = (
+				0BB9BF501D112B9200B208DD /* MJNIndexView.h */,
+				0BB9BF511D112B9200B208DD /* MJNIndexView.m */,
+			);
+			path = MJNIndexView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BB9BF311D11239D00B208DD /* LOIndexView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB9BF491D11239D00B208DD /* Build configuration list for PBXNativeTarget "LOIndexView" */;
+			buildPhases = (
+				0BB9BF2E1D11239D00B208DD /* Sources */,
+				0BB9BF2F1D11239D00B208DD /* Frameworks */,
+				0BB9BF301D11239D00B208DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOIndexView;
+			productName = LOIndexView;
+			productReference = 0BB9BF321D11239D00B208DD /* LOIndexView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BB9BF2A1D11239D00B208DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = locoo;
+				TargetAttributes = {
+					0BB9BF311D11239D00B208DD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0BB9BF2D1D11239D00B208DD /* Build configuration list for PBXProject "LOIndexView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BB9BF291D11239D00B208DD;
+			productRefGroup = 0BB9BF331D11239D00B208DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BB9BF311D11239D00B208DD /* LOIndexView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BB9BF301D11239D00B208DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B794B161D127E7A006DDDCC /* unicode_to_hanyu_pinyin.txt in Resources */,
+				0BB9BF451D11239D00B208DD /* LaunchScreen.storyboard in Resources */,
+				0BB9BF421D11239D00B208DD /* Assets.xcassets in Resources */,
+				0BB9BF401D11239D00B208DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB9BF2E1D11239D00B208DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B794B151D127E7A006DDDCC /* PinyinHelper.m in Sources */,
+				0B794B191D127EDA006DDDCC /* UIViewController+LOIndexView.m in Sources */,
+				0B794B131D127E7A006DDDCC /* pinyin.m in Sources */,
+				0BB9BF521D112B9200B208DD /* MJNIndexView.m in Sources */,
+				0B794B111D127E7A006DDDCC /* HanyuPinyinOutputFormat.m in Sources */,
+				0B794B121D127E7A006DDDCC /* NSString+PinYin4Cocoa.m in Sources */,
+				0BB9BF3D1D11239D00B208DD /* ViewController.m in Sources */,
+				0BB9BF3A1D11239D00B208DD /* AppDelegate.m in Sources */,
+				0BB9BF371D11239D00B208DD /* main.m in Sources */,
+				0B794B141D127E7A006DDDCC /* PinyinFormatter.m in Sources */,
+				0BB9BF4E1D1125A600B208DD /* TestModel.m in Sources */,
+				0B794B101D127E7A006DDDCC /* ChineseToPinyinResource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BB9BF3E1D11239D00B208DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB9BF3F1D11239D00B208DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BB9BF431D11239D00B208DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB9BF441D11239D00B208DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BB9BF471D11239D00B208DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BB9BF481D11239D00B208DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BB9BF4A1D11239D00B208DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LOIndexView/PrefixHeader.pch;
+				INFOPLIST_FILE = LOIndexView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shjy.LOIndexView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BB9BF4B1D11239D00B208DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LOIndexView/PrefixHeader.pch;
+				INFOPLIST_FILE = LOIndexView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shjy.LOIndexView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BB9BF2D1D11239D00B208DD /* Build configuration list for PBXProject "LOIndexView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB9BF471D11239D00B208DD /* Debug */,
+				0BB9BF481D11239D00B208DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB9BF491D11239D00B208DD /* Build configuration list for PBXNativeTarget "LOIndexView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB9BF4A1D11239D00B208DD /* Debug */,
+				0BB9BF4B1D11239D00B208DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BB9BF2A1D11239D00B208DD /* Project object */;
+}
