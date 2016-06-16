@@ -6,6 +6,7 @@
 *  @param modelString    Modle Class
 *  @param PropertyString model排序的属性
 */
+
 [self loIndexView_dealWithData:_allDataMutableArry 
                withModelString:@"TestModel" 
           andThePropertyString:@"theTitle"];
